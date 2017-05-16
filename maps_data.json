@@ -1,0 +1,253 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJXdqTRVXfjkYRwCILHr3j32o",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJV-6VI2rRjkYRQLlLVVG1AAQ",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 61.5100412,
+               "lng" : 23.7609414
+            },
+            "southwest" : {
+               "lat" : 61.4800815,
+               "lng" : 23.5011545
+            }
+         },
+         "copyrights" : "Map data ©2017 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "15.8 km",
+                  "value" : 15849
+               },
+               "duration" : {
+                  "text" : "20 mins",
+                  "value" : 1228
+               },
+               "end_address" : "37100 Nokia, Finland",
+               "end_location" : {
+                  "lat" : 61.48034619999999,
+                  "lng" : 23.5011545
+               },
+               "start_address" : "Tampere, Finland",
+               "start_location" : {
+                  "lat" : 61.49779539999999,
+                  "lng" : 23.7609414
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 453
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 172
+                     },
+                     "end_location" : {
+                        "lat" : 61.4971741,
+                        "lng" : 23.7525398
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eHämeenkatu\u003c/b\u003e toward \u003cb\u003eKeskustori\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ghjvJ{x_pCBf@?FHzC@J?BNjBRxFHdDd@zM@P?B\\lKEf@"
+                     },
+                     "start_location" : {
+                        "lat" : 61.49779539999999,
+                        "lng" : 23.7609414
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 km",
+                        "value" : 631
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 121
+                     },
+                     "end_location" : {
+                        "lat" : 61.5027816,
+                        "lng" : 23.7507735
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eHämeenpuisto\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "idjvJkd~oCuB`@kEdAqGlAwD~@uAZ_GnA"
+                     },
+                     "start_location" : {
+                        "lat" : 61.4971741,
+                        "lng" : 23.7525398
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 232
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 35
+                     },
+                     "end_location" : {
+                        "lat" : 61.50314909999999,
+                        "lng" : 23.7468966
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eNäsijärvenkatu\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "kgkvJiy}oCHrBBn@BdAPbHQl@W|@Sd@KTA@GTCDABCNO\\"
+                     },
+                     "start_location" : {
+                        "lat" : 61.5027816,
+                        "lng" : 23.7507735
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.7 km",
+                        "value" : 1728
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 160
+                     },
+                     "end_location" : {
+                        "lat" : 61.5043635,
+                        "lng" : 23.7211472
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003ePaasikiventie\u003c/b\u003e/\u003cb\u003eRoute 12\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "uikvJca}oCWv@Nr@Lp@ZrBD`@LdAFh@TxEBh@@F`@rLP~DJvCBh@LtDNbBLhAJt@XnAd@jBRj@b@|Al@xB\\pA~@pIVnEPzFJ~DBtBA|AMhBGb@MdAQz@Qh@GRWZc@f@qAt@iAz@oAv@y@VgBj@C@mAj@QL_@Za@X_@`@O\\GXGXGd@C^?N?Z?R?PBZDd@Fp@Dd@BdAAd@Aj@E\\IjC"
+                     },
+                     "start_location" : {
+                        "lat" : 61.50314909999999,
+                        "lng" : 23.7468966
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.6 km",
+                        "value" : 1617
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 88
+                     },
+                     "end_location" : {
+                        "lat" : 61.5093451,
+                        "lng" : 23.6927257
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003ePaasikiventie\u003c/b\u003e/\u003cb\u003eRoute 12\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : {
+                        "points" : "gqkvJe`xoCe@xBCTaA~FQr@yBhK_AnFi@|Ce@zCIl@[`CIr@WhCI~@QtBe@hIgA`Rc@pHk@dJ?Jc@pGSvCy@nLg@hGCN{@dKw@vIMrA[`D"
+                     },
+                     "start_location" : {
+                        "lat" : 61.5043635,
+                        "lng" : 23.7211472
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "8.1 km",
+                        "value" : 8061
+                     },
+                     "duration" : {
+                        "text" : "6 mins",
+                        "value" : 372
+                     },
+                     "end_location" : {
+                        "lat" : 61.48270949999999,
+                        "lng" : 23.5579909
+                     },
+                     "html_instructions" : "Continue straight onto \u003cb\u003eRoute 12\u003c/b\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : {
+                        "points" : "mplvJqnroCYbCOdAWxAUpAIf@OhAM`AGz@A@?@?H?L?ZBd@J`@PR|@fA|AbA|@d@f@V@@b@RRFfDjBnBrBtBnDxArD~@jDl@lCJf@ZtAPr@@DFRH\\J^r@nCr@~BdA~CvAtDz@vBz@tBt@vBfAbD~@~CdAdEbAxE~@zEfAdGdA`Gx@bFl@|Dt@`FT`BLdANbAn@hFh@rF\\xEJrAHvAX~F\\|Ip@xP?JFlALlC`AtQz@~Mt@xJnBjUNvAVtCd@nFN~B@NFj@Dl@d@hIFrALfDN~EJdGHlHHnHDhGHnHH~DD|BPfHL`EP`E@ND~@B`ADj@N~CJfBPpCf@fHd@zFv@lIr@zG|@dIn@nFh@jEp@pF\\`D`@lDDb@Dd@VdC\\~D\\pEZpF@TNbCD`AD`ANbDLbDRpE\\vG@PRhDVzDLzAFl@LvAZnCVzBRpAPrAP`AX~Aj@vCp@|CLj@hCpKfCzJ\\rAXhAHZNl@?@Rz@Lf@t@nDjBzIf@dCh@lCBFx@xE~@tFR`Bd@tCn@~ELbAj@xEr@jHjAzMx@pKn@xJTlDt@tKBf@Dh@HtA?@n@rLD~@P~Cf@`I"
+                     },
+                     "start_location" : {
+                        "lat" : 61.5093451,
+                        "lng" : 23.6927257
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 285
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 20
+                     },
+                     "end_location" : {
+                        "lat" : 61.48227679999999,
+                        "lng" : 23.5527814
+                     },
+                     "html_instructions" : "Take the \u003cb\u003eRoute 2505\u003c/b\u003e exit toward \u003cb\u003eNokia\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "}igvJmdxnC@zALzCDtAFnD@f@BjB@dBD|AD`ABVDVXhA"
+                     },
+                     "start_location" : {
+                        "lat" : 61.48270949999999,
+                        "lng" : 23.5579909
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "2.8 km",
+                        "value" : 2842
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 260
+                     },
+                     "end_location" : {
+                        "lat" : 61.48034619999999,
+                        "lng" : 23.5011545
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eNokianvaltatie\u003c/b\u003e/\u003cb\u003eRoute 2505\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "gggvJ{cwnCUx@?@YhAMh@Kl@Mt@I`AEh@Ed@G~@InBCpACtAAdA@rA@rADtBHfCb@vF@X?VCV|@vHThBNxAHh@?DRxA`@pDf@jER~A\\lDVbCNjAD`@VzBTvBTrBDf@ZnDZrFLjCf@rJHfBDz@DjAHlC@VDbE?LCvBElAQjE[vHE~@QxEIXCf@O~Da@pJA^[nJ?Xa@bJ]pJOtDIlD?hB@B@bA@b@HvBDz@n@bMPjDTtFJzBF~A@ZDdABt@\\xHDf@B\\DXDXNt@"
+                     },
+                     "start_location" : {
+                        "lat" : 61.48227679999999,
+                        "lng" : 23.5527814
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "ghjvJ{x_pCNvENnB\\~KdA~ZEf@uB`@kEdAqGlAmGzA_GnAHrBFtBPbHQl@W|@Sd@MVQn@g@tA\\dBv@dGXbGb@zLn@vP\\lDd@dCd@jBRj@pAvE\\pA~@pIVnEPzFNtHA|AMhBUhBQz@Qh@GRWZc@f@qAt@yCrBaDbAqAl@q@h@a@X_@`@Wv@O~@Cn@?n@Bl@LvAHjBCpAOhDi@nCaA~FQr@yBhK_AnFoAxHe@nDa@|D[tDmBj\\sBt\\yB`Z}Cr]i@hEm@jDYpBU|BAZB`AJ`@PR|@fA|AbAdB|@d@TRFfDjBnBrBtBnDxArD~@jDx@tDl@hC^vAfBnGdA~CvAtDvBlF|BzGdCdJbCtLlCfOfB`LhBlMn@hFh@rFh@lHb@vInAv[vA|Xz@~Mt@xJ~BbX|@dKPnCLxAl@|K\\fKTrPNxPRnNVdL^bKP|DZfGx@xL|AhQpB`RhDnYdA|Jz@pK\\fGj@jL`A~Sj@dJThCh@fFj@lEb@tCdAvF~@hEpGlWpAfFR|@vExTl@tCxBnMx@vF|@bH~AdOjAzMx@pKdAfPx@|L~@tPV~Ef@`I@zARpFHvEDpEJ~CHn@XhAUx@YjAYvAWvBKnAQnDGfD?xCFhEHfCb@vF@p@CV|@vHd@bE~@zHpB|QbA`JZzCZnDZrFt@~NNbDNxEFzECdCWxGa@vJQxEIXSfFc@pK[nJ?X_AtUYbJ@lBBfBNrD`AnR`@pJRvFf@~JZhB"
+         },
+         "summary" : "Route 12",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
