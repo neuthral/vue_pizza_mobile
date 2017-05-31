@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="bootstrap.min.css">
   
   <style>
-    body { background: #e5b367; position:relative; font-family: Ubuntu; width:100%; overflow-y: scroll; }
+    html { background: #e5b367; position:relative; font-family: Ubuntu; width:100%; overflow-y: scroll; }
       #theMap { width: 100%; height: auto; background-color:#e5b367; border-radius: 8px;}
       a:hover, a:visited, a:link, a:active { text-decoration: none; }
-      .page { max-width:640px; background: #e5b367 url("bg_1.svg") no-repeat top; background-size:600%; color:#5F2240;  } 
+      .page { width:640px; margin: 0 auto; background: #e5b367 url("bg_1.svg") no-repeat top; background-size:600%; color:#5F2240;  } 
       .navbar { border:0; max-height:32px; }
       .product-list li { clear:left; display:block; width:93%; height:96px; margin-bottom:8px; background:#fafafa; border:0px solid; border-radius:8px;}
       .product-list li span { display:block; float:left; border:0px solid #000; font-size:32px; padding-left:8px; }
@@ -25,7 +25,7 @@
       .searchPanel { margin-right:auto; }
   </style>
 </head>
-<body class="ui-mobile-viewport ui-overlay-c">
+<body class="">
   <div data-role="page" id="pageone" class="page" data-url="/mobile.html" tabindex="0" class="ui-page ui-body-c ui-page-panel ui-page-active" data-vivaldi-spatnav-clickable="1" style="min-height: 640px;">
     <nav-bar></nav-bar>
 
@@ -66,15 +66,15 @@
     <div data-role="content">
       <div class="ui-grid-solo">
             <h1 class="pull-left">{{ product.name }}</h1>
-            <h1 class="pull-right">{{ product.big | currency }} &euro;</h1>
+            <h1 class="pull-right">{{ product.big }} &euro;</h1>
       </div>
 
       <div class="row" data-role="controlgroup">
           <div class="ui-body">
               <input type="radio" name="size" data-theme="e" id="norm" value="norm" checked="checked" />
-                <label for="norm" style="color:#5F2240;"><h4 class="pull-left">normaalikoko</h4> <h4 class="pull-right">{{ product.norm | currency }} &euro;</h4></label>
+                <label for="norm" style="color:#5F2240;"><h4 class="pull-left">normaalikoko</h4> <h4 class="pull-right">{{ product.norm }} &euro;</h4></label>
               <input type="radio" name="size" data-theme="e" id="big" value="big" />
-                <label for="big" style="color:#5F2240;"><h4 class="pull-left">perhekoko</h4> <h4 class="pull-right">{{ product.big | currency }} &euro;</h4></label>
+                <label for="big" style="color:#5F2240;"><h4 class="pull-left">perhekoko</h4> <h4 class="pull-right">{{ product.big }} &euro;</h4></label>
           </div>
       </div>
 
@@ -168,7 +168,6 @@
     <div data-role="page" id="pagefour" class="page">
       <div data-role="content">
         <div class="ui-body">
-          
           <legend><h3>kartalla</h3></legend>
           <a href="mobile.html">
             <img id="theMap" src="https://maps.googleapis.com/maps/api/staticmap?center=Tampere,FI&zoom=12&size=600x600&key=AIzaSyAF-kNLFjGiDq-rrtUv2VlWnntHvHM-HM4">
